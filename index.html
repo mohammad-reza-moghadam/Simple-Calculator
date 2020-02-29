@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://fonts.googleapis.com/css?family=Rajdhani&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <title>Simple Calculator</title>
+</head>
+<body>
+  <div class="container">
+    <h2 class="header">Simple <span>Calculator</span></h2>
+    <h1 class="symbol"><span class="hand">\_</span>&#9786;<span class="hand">_/</span></h1>
+    <div class="inputs">
+      <form>
+        <input type="number" id="num1">
+        <br><br>
+        <input type="number" id="num2">
+        <br><br>
+        <p class="par">Enter Add or Sub to Calculate</p>
+        <select id="oper">
+          <option value="select">--Select--</option>
+          <option value="Add">Add</option>
+          <option value="Sub">Substraction</option>
+          <option value="Mul">Multipication</option>
+          <option value="Div">Division</option>
+        </select>
+        <br><br>
+        <a href="#" id="btn">Calculate</a>
+      </form>
+    </div>
+    <h1 id="output"></h1>
+  </div>
+
+  <!-- JavaScript -->
+  <script src="app.js"></script>
+</body>
+</html>
