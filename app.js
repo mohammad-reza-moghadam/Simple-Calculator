@@ -29,5 +29,7 @@ function calculate(){
     document.getElementById('output').innerHTML = (num1) * (num2);
   }else if(divide.value === 'Div'){
     document.getElementById('output').innerHTML = (num1) / (num2);
+  }else{
+    document.getElementById('output').innerHTML = 'Enter a Number!'
   }
 }
